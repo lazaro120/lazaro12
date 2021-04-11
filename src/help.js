@@ -1,11 +1,11 @@
 const help = (prefix) => {
 	return `
 <══════════════════════>
-      *CAUSS BOT*
+      *LAZARØ BOT*
  <══════════════════════>
 
 __█████████  ● ᏴϴͲ●ᎷᎬΝႮ●         
-__█▄█████▄█   *DONO*    : CAUSS
+__█▄█████▄█   *DONO*    : LAZARØ
 __█▼▼▼▼▼█ 
 _██ᏴϴͲ Ꮩ3.8██▌ 
 __█▲▲▲▲▲█ 
@@ -15,25 +15,25 @@ ____██_____██
 ┌─────────❶.❷────────
 ║〘 INFORMAÇÕES 〙
 ║
-╠🐉 *CAUSS BOT* 
+╠🐉 *LAZARØ BOT* 
 ╠🐉 𝐃𝐎𝐍𝐎:  ⃬⃗CAUSS (base dark) 
-╠🐉 *wa.me/+5547992091566*
+╠🐉 *wa.me/+18144265923*
 ╠🐉 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 ║
 ║
 ╠══🐰〘 MENU 〙🐰══
 ║
-║🐊 *${prefix}figu*
-║🐊 *${prefix}toimg*
-║🐊 *${prefix}darkjokes (memes aleatórios)*
-║🐊 *${prefix}memeindo*
-║🐊 *${prefix}tts*
-║🐊 *${prefix}lolih [on]*
-║🐊 *${prefix}nsfwloli [off]*
-║🐊 *${prefix}url2img*
-║🐊 *${prefix}leens [na legenda]*
-║🐊 *${prefix}wait [na legenda]*
-║🐊 *${prefix}setprefix*
+║🤑 *${prefix}figu*
+║🤑 *${prefix}toimg*
+║🤑 *${prefix}darkjokes (memes aleatórios)*
+║🤑 *${prefix}memeindo*
+║🤑 *${prefix}tts*
+║🤑 *${prefix}lolih [on]*
+║🤑 *${prefix}nsfwloli [off]*
+║🤑 *${prefix}url2img*
+║🤑 *${prefix}leens [na legenda]*
+║🤑 *${prefix}wait [na legenda]*
+║🤑 *${prefix}setprefix*
 ║
 ╠══🐰〘 OUTROS 〙🐰══
 ║
@@ -72,44 +72,44 @@ ____██_____██
 ║
 ╠══🐰〘 IMAGENS 〙🐰══
 ║
-║🐊 *${prefix}loli* [off]
-║🐊 *${prefix}loli1*
-║🐊 *${prefix}hentai*
-║🐊 *${prefix}dono*
-║🐊 *${prefix}porno*
-║🐊 *${prefix}boanoite*
-║🐊 *${prefix}bomdia*
-║🐊 *${prefix}boatarde*
-║🐊 *${prefix}mia [aleatórias]*
-║🐊 *${prefix}rize [aleatórias]*
-║🐊 *${prefix}minato [aleatórias]*
-║🐊 *${prefix}boruto [aleatórias]*
-║🐊 *${prefix}hinata [aleatórias]*
-║🐊 *${prefix}sasuke [aleatórias]*
-║🐊 *${prefix}sakura [aleatórias]*
-║🐊 *${prefix}naruto [aleatórias]*
-║🐊 *${prefix}meme*   
-║🐊 *${prefix}lofi*
-║🐊 *${prefix}malkova*
-║🐊 *${prefix}canal*
-║🐊 *${prefix}nsfwloli1*
-║🐊 *${prefix}reislin*
+║🐉 *${prefix}loli* [off]
+║🐉 *${prefix}loli1*
+║🐉 *${prefix}hentai*
+║🐉 *${prefix}dono*
+║🐉 *${prefix}porno*
+║🐉 *${prefix}boanoite*
+║🐉 *${prefix}bomdia*
+║🐉 *${prefix}boatarde*
+║🐉 *${prefix}mia [aleatórias]*
+║🐉 *${prefix}rize [aleatórias]*
+║🐉 *${prefix}minato [aleatórias]*
+║🐉 *${prefix}boruto [aleatórias]*
+║🐉 *${prefix}hinata [aleatórias]*
+║🐉 *${prefix}sasuke [aleatórias]*
+║🐉 *${prefix}sakura [aleatórias]*
+║🐉 *${prefix}naruto [aleatórias]*
+║🐉 *${prefix}meme*   
+║🐉 *${prefix}lofi*
+║🐉 *${prefix}malkova*
+║🐉 *${prefix}canal*
+║🐉 *${prefix}nsfwloli1*
+║🐉 *${prefix}reislin*
 ║
 ╠══🐰〘 INTELIGÊNCIA 〙🐰══
 ║
-║🐊 *${prefix}simih 1 (para ativar)*
-║🐊 *${prefix}simih 0 (para desativar)*
-║ *${prefix}simi (sua mensagem)*
+║🐳 *${prefix}simih 1 (para ativar)*
+║🐬 *${prefix}simih 0 (para desativar)*
+║🐟 *${prefix}simi (sua mensagem)*
 ║
 ╠══🐰〘 EM PRODUÇÃO 〙🐰══
 ║
-║🐊 *${prefix}gado*
-║🐊 *${prefix}dbz*
-║🐊 *${prefix}gtts loli*
-║🐊 *${prefix}hidegp*
-║🐊 *${prefix}grupos
-║🐊 *${prefix}antinazismo
-║🐊 *${prefix}it 1/0
+║🦢 *${prefix}gado*
+║🦢 *${prefix}dbz*
+║🦢 *${prefix}gtts loli*
+║🦢 *${prefix}hidegp*
+║🦢 *${prefix}grupos
+║🦢 *${prefix}antinazismo
+║🦢 *${prefix}it 1/0
 ║
 ╠══🐰〘 SÓ PREMIUM 〙🐰══
 ║
@@ -130,25 +130,25 @@ ____██_____██
 ║
 ╠══🐰〘 GRUPO 〙🐰══
 ║
-║🐊 *${prefix}banir*
-║🐊 *${prefix}leveling [on/off]*
-║🐊 *${prefix}level*
-║🐊 *${prefix}add*
-║🐊 *${prefix}promover*
-║🐊 *${prefix}setfoto [na legenda]*
-║🐊 *${prefix}setname [texto]*
-║🐊 *${prefix}rebaixar*
-║🐊 *${prefix}admins*
-║🐊 *${prefix}marcar*
-║🐊 *${prefix}marcar2*
-║🐊 *${prefix}marcar3*
-║🐊 *${prefix}bemvindo [1/0]*
-║🐊 *${prefix}grupoinfo*
-║🐊 *${prefix}bomdia*
-║🐊 *${prefix}boatarde*
-║🐊 *${prefix}boanoite*
-║🐊 *${prefix}setdesc*
-║🐊 *${prefix}bug [sua mensagem]*
+║🐣 *${prefix}banir*
+║🐣 *${prefix}leveling [on/off]*
+║🐣 *${prefix}level*
+║🐣 *${prefix}add*
+║🐣 *${prefix}promover*
+║🐣 *${prefix}setfoto [na legenda]*
+║🐣 *${prefix}setname [texto]*
+║🐣 *${prefix}rebaixar*
+║🐣 *${prefix}admins*
+║🐣 *${prefix}marcar*
+║🐣 *${prefix}marcar2*
+║🐣 *${prefix}marcar3*
+║🐣 *${prefix}bemvindo [1/0]*
+║🐣 *${prefix}grupoinfo*
+║🐣 *${prefix}bomdia*
+║🐣 *${prefix}boatarde*
+║🐣 *${prefix}boanoite*
+║🐣 *${prefix}setdesc*
+║🐣 *${prefix}bug [sua mensagem]*
 ║
 ╠══🐰〘 ESPECIFICO DO BOT 〙🐰══
 ║
@@ -167,28 +167,28 @@ ____██_____██
 ║
 ╠══🐰〘 MAIS ALGUNS 〙🐰══
 ║
-║🐊 *${prefix}neko*
-║🐊 *${prefix}ttp [texto]*
-║🐊 *${prefix}testime*
-║🐊 *${prefix}tomp3*
-║🐊 *${prefix}modoanime [on/off]*
-║🐊 *${prefix}modonsfw [on/off]*
-║🐊 *${prefix}happymod [jogo/app]*
-║🐊 *${prefix}rize*
-║🐊 *${prefix}ytsearch*
-║🐊 *${prefix}moddroid [jogo/app]*
-║🐊 *${prefix}xvideos [titulo]**
-║🐊 *${prefix}nomegp*
-║🐊 *${prefix}darkjokes (memes aleatórios)*
-║🐊 *${prefix}animecry*
-║🐊 *${prefix}gay1*
-║🐊 *${prefix}next*
-║🐊 *${prefix}alerta*
-║🐊 *${prefix}belle [img aleatórias]*
-║🐊 *${prefix}pronomeneu [texto]*
-║🐊 *${prefix}hobby*
-║🐊 *${prefix}kiss
-║🐊 *${prefix}analise
+║🐕‍🦺 *${prefix}neko*
+║🐕‍🦺 *${prefix}ttp [texto]*
+║🐕‍🦺 *${prefix}testime*
+║🐕‍🦺 *${prefix}tomp3*
+║🐕‍🦺 *${prefix}modoanime [on/off]*
+║🐕‍🦺 *${prefix}modonsfw [on/off]*
+║🐕‍🦺 *${prefix}happymod [jogo/app]*
+║🐕‍🦺 *${prefix}rize*
+║🐕‍🦺 *${prefix}ytsearch*
+║🐕‍🦺 *${prefix}moddroid [jogo/app]*
+║🐕‍🦺 *${prefix}xvideos [titulo]**
+║🐕‍🦺 *${prefix}nomegp*
+║🐕‍🦺 *${prefix}darkjokes (memes aleatórios)*
+║🐕‍🦺 *${prefix}animecry*
+║🐕‍🦺 *${prefix}gay1*
+║🐕‍🦺 *${prefix}next*
+║🐕‍🦺 *${prefix}alerta*
+║🐕‍🦺 *${prefix}belle [img aleatórias]*
+║🐕‍🦺 *${prefix}pronomeneu [texto]*
+║🐕‍🦺 *${prefix}hobby*
+║🐕‍🦺 *${prefix}kiss
+║🐕‍🦺 *${prefix}analise
 ║
 ╠══🐰〘 COMANDOS DE VOZ 〙🐰══
 ║
@@ -211,33 +211,33 @@ ____██_____██
 ║🐊 *${prefix}setnomebot*
 ║🐊 *${prefix}meme*
 ║
-╠══🐰〘 INTERATIVOS 〙🐰══
+╠══🐰〘 INTERATIVOS 〙🐰═oi═
 ║
 ╠══NOTA »
 ║Mandar a msg sem o prefixo
 ╠════════════════════
 ║
-║🐊 *bah*
-║🐊 *oii*
-║🐊 *bv*
-║🐊 *canta ai bot*
-║🐊 *grita*
-║🐊 *causs*
-║🐊 *gemidao*
-║🐊 *musica*
+║🦊 *bah*
+║🦊 *oii*
+║🦊 *bv*
+║🦊 *canta ai bot*
+║🦊 *grita*
+║🦊 *lazaro*
+║🦊 *gemidao*
+║🦊 *musica*
 ║
-╠══🐰〘 CAUSS NO CONTROLE 〙🐰══
+╠══🐰〘 LAZARO NO CONTROLE 〙🐰══
 ║
-║ *NOME: CAUSS*
+║ *NOME: LAZARO*
 ║ *INSTA: animexx_png*
-║ *WPP: wa.me/+5547992091566*
-║ *YOUTUBE: https://youtube.com/c/caussZ*
+║ *WPP: wa.me/+1814265923*
+║ *YOUTUBE: https://youtube.com/c/piuzinho*
 ║
 ║  *"base do lindo (DARK BOT 4.0)🐊🚩*
 ║  *"kiba não xereka"*
 ║  *Número do dark: wa.me/+5522996215481
 ║
-╚═〘 CAUSS BOT 〙`
+╚═〘 ŁÅŽÅŘØ BOT 〙`
 }
 
 exports.help = help
