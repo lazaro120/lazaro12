@@ -303,7 +303,6 @@ async function starts() {
 			const mod = [ownerNumber,"18144265923@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["18144265923@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["18144265923@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["18144265923@s.whatsapp.net"]const botNumber = client.user.jid
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -322,7 +321,6 @@ async function starts() {
 	    	const isAntiRacismo = isGroup ? antiracismo.includes(from) : false
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
-			const isPremium = premium.includes(sender)
 			const ismod = mod.includes(sender)
 			const errorurl2 = 'https://i.ibb.co/dttZM8b/591530180aad.png'
 			const isadminbot = adminbotnumber.includes(sender)
@@ -852,7 +850,6 @@ if (text.includes("placa"))
 					reply(anu.result.hasil)
 					break
                    case 'modapk':
-                    if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, modapk(prefix), text, { quoted: mek })
                     break
                    case 'gbin':
@@ -3308,7 +3305,7 @@ break
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Número* : \n│+ *Expirado*: *30 Days*\n│+ *Status*: *ATIVO*\n│ Thx para atualizar para premium🥰\n*╰──────「 *posição* 」────'
+						teks = '╭────「 *PREMIUM👑* 」──*\n│+* : \n│+ *Expirado*: *30 Days*\n│+ *Status*: *ATIVO*\n│ Thx para atualizar para premium🥰\n*╰──────「 *posição* 」────'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
