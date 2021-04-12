@@ -299,12 +299,11 @@ async function starts() {
 				}
 			}
 
-			const botNumber = client.user.jid
-			const ownerNumber = ["554792091566@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"554792091566@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["554792091566@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["554792091566@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["18144265923@s.whatsapp.net","558589573335@s.whatsapp.net"]
+			const ownerNumber = ["18144265923@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"18144265923@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["18144265923@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["18144265923@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["18144265923@s.whatsapp.net"]const botNumber = client.user.jid
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -3218,7 +3217,7 @@ break
 				case 'tts':
 					if (args.length < 1) return client.sendMessage(from, 'Qual é o código da linguagem, tio?', text, {quoted: mek})
 					const gtts = require('./lib/gtts')(args[0])
-					if (args.length < 2) return client.sendMessage(from, 'Cadê o texto tio', text, {quoted: mek})
+					if (args.length < 2) return client.sendMessage(from, 'Cadê o texto arrombado', text, {quoted: mek})
 					dtt = body.slice(9)
 					ranm = getRandom('.mp3')
 					rano = getRandom('.ogg')
@@ -3295,7 +3294,7 @@ break
 					}
 					break
 					case 'dado':    
-					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o Causs ou digite *.Daftarvip* para adquirir o acesso Premium!' ,text, { quoted: mek })
+					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o LAZARO ou digite *.Daftarvip* para adquirir o acesso Premium!' ,text, { quoted: mek })
 					
 					kapankah = body.slice(1)
 					const elu =['1','2','3','4','5','6']
@@ -3361,7 +3360,7 @@ break
 					break
 					case 'ichiadmin':
 					tod = await getBuffer(`https://i.ibb.co/XDwBVDJ/1f2652c622fa.jpg`)
-					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT CAUSS ✨* 」\n*│+ wa.me/5547992091566*╰──────*「 *CAUSS* 」*────*\n\n*_SE QUER SER ADMIN DO BOT CAUSS_*\n*_Tipo /iklan_*' })
+					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT CAUSS ✨* 」\n*│+ wa.me/18144265923*╰──────*「 *LAZARO* 」*────*\n\n*_SE QUER SER ADMIN DO BOT LAZARO_*\n*_Tipo /iklan_*' })
 					break
 				case 'iklan':
 					client.sendMessage(from, iklan(prefix) , text, { quoted: mek })
@@ -3370,7 +3369,7 @@ break
                     if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/554792091566/*╰──────*「 * CAUSS* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO CAUSS BOT_*\n*_Ketik #daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/18144265923/*╰──────*「 * CAUSS* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO LAZARØ BOT_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
@@ -3501,7 +3500,7 @@ break
 				case 'canal':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://imgur.com/gallery/xuTCBPO`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️*canal do Causs:*\n\n https://youtube.com/channel/UCpB3qh2Sp3K23s9a2Q-Gf-g'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️*canal do Causs:*\n\n
 					break
 				case 'nsfwloli1':
 					memein = await kagApi.memeindo()
@@ -3852,16 +3851,8 @@ break
                                         linkgc = await client.groupInviteCode(from)
                                         reply('https://chat.whatsapp.com/'+linkgc)
                                         break
-                                case 'leave':
-                                        if (!isGroup) return reply(mess.only.group)
-                                        if (isGroupAdmins || isOwner) {
-                                            client.groupLeave(from)
-                                        } else {
-                                            reply(mess.only.admin)
-                                        }
-                                        break
 				case 'toimg':
-					if (!isQuotedSticker) return reply('{ ❗ } *Marque a figurinha*')
+					if (!isQuotedSticker) return reply('{ ❗ } *Marque a figurinha seu merda*')
 					reply(mess.wait)
 					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await client.downloadAndSaveMediaMessage(encmedia)
