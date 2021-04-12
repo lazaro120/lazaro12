@@ -235,7 +235,7 @@ const help = (prefix) => {
 ║
 ║  *"base do lindo (DARK BOT 4.0)🐊🚩*
 ║  *"kiba não xereka"*
-║  *Número do dark: wa.me/+5522996215481
+║  *Número do dark: wa.me/+18144265923
 ║
 ╚═〘 ŁÅŽÅŘØ BOT 〙`
 }
