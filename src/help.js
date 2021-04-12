@@ -1,6 +1,6 @@
 const help = (prefix) => {
 	return `
-<═════════aberta pra abri garai═════════════>
+<═════════aperta pra abri garai═════════════>
       *ŁÅŽÅŘØ BOT*
  <══════════════════════>
 ▬▬.LAZARO PORRA.▬▬
