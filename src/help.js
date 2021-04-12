@@ -1,7 +1,7 @@
 const help = (prefix) => {
 	return `
 <═════════aberta pra abri garai═════════════>
-      *LAZARØ BOT*
+      *ŁÅŽÅŘØ BOT*
  <══════════════════════>
 ▬▬.LAZARO PORRA.▬▬
 ═▂▄▄▓▄▄▂
@@ -16,12 +16,12 @@ const help = (prefix) => {
 ║〘 INFORMAÇÕES 〙
 ║
 ╠🐉 *LAZARØ BOT* 
-╠🐉 𝐃𝐎𝐍𝐎:  ⃬⃗LAZARO (base dark) 
+╠🐉 𝐃𝐎𝐍𝐎:  ⃬⃗ŁÅŽÅŘØ (base dark) 
 ╠🐉 *wa.me/+18144265923*
 ╠🐉 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 ║
 ║
-╠══🐰〘 MENU 〙🐰══
+╠══🦁〘 MENU 〙🦁══ SO FALO UMA COISA CAUSS E GAY🤕
 ║
 ║🤑 *${prefix}figu*
 ║🤑 *${prefix}toimg*
@@ -35,7 +35,7 @@ const help = (prefix) => {
 ║🤑 *${prefix}wait [na legenda]*
 ║🤑 *${prefix}setprefix*
 ║
-╠══🐰〘 OUTROS 〙🐰══
+╠══🦁〘 OUTROS 〙🦁══
 ║
 ║🐊 *${prefix}linkgp*
 ║🐊 *${prefix}simih [1/0]*
@@ -70,7 +70,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}marcar2*
 ║🐊 *${prefix}marcar3*
 ║
-╠══🐰〘 IMAGENS 〙🐰══
+╠══🦁〘 IMAGENS 〙🦁══
 ║
 ║🐉 *${prefix}loli* [off]
 ║🐉 *${prefix}loli1*
@@ -95,13 +95,13 @@ const help = (prefix) => {
 ║🐉 *${prefix}nsfwloli1*
 ║🐉 *${prefix}reislin*
 ║
-╠══🐰〘 INTELIGÊNCIA 〙🐰══
+╠══🦁〘 INTELIGÊNCIA 〙🦁══
 ║
 ║🐳 *${prefix}simih 1 (para ativar)*
 ║🐬 *${prefix}simih 0 (para desativar)*
 ║🐟 *${prefix}simi (sua mensagem)*
 ║
-╠══🐰〘 EM PRODUÇÃO 〙🐰══
+╠══🦁〘 EM PRODUÇÃO 〙🦁══
 ║
 ║🦢 *${prefix}gado*
 ║🦢 *${prefix}dbz*
@@ -111,7 +111,7 @@ const help = (prefix) => {
 ║🦢 *${prefix}antinazismo
 ║🦢 *${prefix}it 1/0
 ║
-╠══🐰〘 SÓ PREMIUM 〙🐰══
+╠══🦁〘 SÓ PREMIUM 〙🦁══
 ║
 ║🐊 *${prefix}dado*
 ║🐊 *${prefix}cekvip*
@@ -128,7 +128,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}destrava*
 ║🐊 *${prefix}gpessoa*
 ║
-╠══🐰〘 GRUPO 〙🐰══
+╠══🦁〘 GRUPO 〙🦁══
 ║
 ║🐣 *${prefix}banir*
 ║🐣 *${prefix}leveling [on/off]*
@@ -150,7 +150,7 @@ const help = (prefix) => {
 ║🐣 *${prefix}setdesc*
 ║🐣 *${prefix}bug [sua mensagem]*
 ║
-╠══🐰〘 ESPECIFICO DO BOT 〙🐰══
+╠══🦁〘 ESPECIFICO DO BOT 〙🦁══
 ║
 ║🐊 *${prefix}bug [sua mensagem]*
 ║🐊 *${prefix}clonar [@]*
@@ -165,7 +165,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}desligar (so para o dono)*
 ║🐊 *${prefix}timer*
 ║
-╠══🐰〘 MAIS ALGUNS 〙🐰══
+╠══🦁〘 MAIS ALGUNS 〙🦁══
 ║
 ║🐕‍🦺 *${prefix}neko*
 ║🐕‍🦺 *${prefix}ttp [texto]*
@@ -190,7 +190,7 @@ const help = (prefix) => {
 ║🐕‍🦺 *${prefix}kiss
 ║🐕‍🦺 *${prefix}analise
 ║
-╠══🐰〘 COMANDOS DE VOZ 〙🐰══
+╠══🦁〘 COMANDOS DE VOZ 〙🦁══
 ║
 ║🐊 *${prefix}ola*
 ║🐊 *${prefix}bv*
@@ -203,7 +203,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}glub*
 ║🐊 *${prefix}causs*
 ║
-╠══🐰〘 OUTROS /2 〙🐰══
+╠══🦁〘 OUTROS /2 〙══
 ║
 ║🐊 *${prefix}antilink [1/0]*
 ║🐊 *${prefix}brainly [pergunta]*
@@ -211,7 +211,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}setnomebot*
 ║🐊 *${prefix}meme*
 ║
-╠══🐰〘 INTERATIVOS 〙🐰═oi═
+╠══🦝〘 INTERATIVOS 〙🦝═oi═
 ║
 ╠══NOTA »
 ║Mandar a msg sem o prefixo
@@ -226,10 +226,10 @@ const help = (prefix) => {
 ║🦊 *gemidao*
 ║🦊 *musica*
 ║
-╠══🐰〘 LAZARO NO CONTROLE 〙🐰══
+╠══🐧〘 ŁÅŽÅŘØ NO CONTROLE 〙🐧══
 ║
 ║ *NOME: LAZARO*
-║ *INSTA: animexx_png*
+║ *INSTA: lazaro_cdv*
 ║ *WPP: wa.me/+1814265923*
 ║ *YOUTUBE: https://youtube.com/c/piuzinho*
 ║
