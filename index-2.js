@@ -47,19 +47,19 @@ const { limit } = require('./database/menu/limit*/
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = '𝑷𝒁𝑶 bot'; 
+const BotName = 'ŁÅŽÅŘØ bot'; 
 const instagram = 'http://www.instagram.com/'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'PZO\n' // Nama kamu
+            + 'ŁÅŽÅŘØ\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=5527997179500:+55 27997179500\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=18144265923:+1 8144265923\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '.'
 blocked = []
 limitawal = '999999999'
-cr = '*𝑷𝒁𝑶*'
+cr = 'ŁÅŽÅŘØ**'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -272,7 +272,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-					wait: '❬⏳❭ Aguarde, 𝑷𝒁𝑶 está fazendo',
+					wait: '❬⏳❭ Aguarde seu otario lazaro ta fazendo',
 					success: '️❬ ✔ ❭ Sucesso 🖤',
 					levelon: '❬ ✔ ❭ *leveling* *ativado*',
 					leveloff: ' ❬ X ❭  *leveling* *desativado*',
@@ -293,11 +293,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5527997179500@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"5527997179500@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["5527997179500@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["5527997179500@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["5527997179500@s.whatsapp.net"] 
+			const ownerNumber = ["18144265923@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"18144265923@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["18144265923@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["18144265923@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["18144265923@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
