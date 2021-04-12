@@ -1695,7 +1695,7 @@ if (text.includes("placa"))
 					await limitAdd(sender) 	
 					break  
 				case 'ttp':
-					if (args.length < 1) return reply('Cadê o texto, hum?')
+					if (args.length < 1) return reply('Cadê o texto, hum otario?')
 					ranp = getRandom('.png')
 					rano = getRandom('.webp')
 					teks = body.slice(4).trim()
@@ -3362,11 +3362,6 @@ break
 				case 'iklan':
 					client.sendMessage(from, iklan(prefix) , text, { quoted: mek })
 					break
-					case 'premiumcek':
-                    if (isBanned) return reply(mess.only.benned)    
-				if (!isUser) return reply(mess.only.userB)
-					sa = await getBuffer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/18144265923/*╰──────*「 * CAUSS* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO LAZARØ BOT_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
