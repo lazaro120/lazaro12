@@ -3357,7 +3357,7 @@ break
 					break
 					case 'ichiadmin':
 					tod = await getBuffer(`https://i.ibb.co/XDwBVDJ/1f2652c622fa.jpg`)
-					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT CAUSS ✨* 」\n*│+ wa.me/18144265923*╰──────*「 *LAZARO* 」*────*\n\n*_SE QUER SER ADMIN DO BOT LAZARO_*\n*_Tipo /iklan_*' })
+					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT LAZARO✨* 」'\n*│+ wa.me/18144265923*╰──────*「 *LAZARO* 」*────*'\n\n*_SE QUER SER ADMIN DO BOT LAZARO_*'\n*_Tipo /iklan_*' })
 					break
 				case 'iklan':
 					client.sendMessage(from, iklan(prefix) , text, { quoted: mek })
