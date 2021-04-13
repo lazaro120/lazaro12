@@ -57,7 +57,7 @@ const instagram = 'http://www.instagram.com/';
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Causs\n' // Nama kamu
+            + 'FN:lazaro\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=558896657187:+55 8896657187\n' //Nomor whatsapp kamu
             + 'END:VCARD'
@@ -1985,7 +1985,7 @@ break
 					break 
 				case 'addfoto':
 					if (!isGroup) return reply(mess.only.group)
-					if (!isOwner) return reply('Você quem é o dono? ')
+					if (!isOwner) return reply('Você quem é o don.o? ')
 					client.sendMessage(from, addfoto(prefix), text, { quoted: mek })
 					break
 			    case 'otagall3':
@@ -2454,7 +2454,7 @@ break
 					 client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
 					break
 				case 'desligar':
-				if (!isOwner) return reply('Comando so para o meu dono, qm e vc?')
+				if (!isOwner) return reply('Comando so para o meu don.o, qm e vc?')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						const media = await client.downloadAndSaveMediaMessage(encmedia)
@@ -3062,7 +3062,7 @@ break
 					break
 			    case 'owner':
                     client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-                    client.sendMessage(from, 'Ctt do meu dono ai, pfv n flode o chat',MessageType.text, { quoted: mek} )
+                    client.sendMessage(from, 'Ctt do meu don.o ai, pfv n flode o chat',MessageType.text, { quoted: mek} )
                     break
                 case 'fitnah':	
 				case 'fake':          
@@ -3076,7 +3076,7 @@ break
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `*Nome do bot* : ${me.name}\n*Número do bot* : @${me.jid.split('@')[0]}\n*Prefixo* : ${prefix}\n*Contatos bloqueados* : ${blocked.length}\n*O bot está ativo em* : ${kyun(uptime)}\n\n*Digite .dono para ver a info do dono*`
+					teks = `*Nome do bot* : ${me.name}\n*Número do bot* : @${me.jid.split('@')[0]}\n*Prefixo* : ${prefix}\n*Contatos bloqueados* : ${blocked.length}\n*O bot está ativo em* : ${kyun(uptime)}\n\n*Digite .dono para ver a info do d.ono*`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -3884,7 +3884,7 @@ break
 				case 'simih':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (args.length < 1) return reply('Hmmmm')
+					if (args.length < 1) return reply('Hmlazarommm')
 					if (Number(args[0]) === 1) {
 						if (isSimi) return reply('O modo Simi está ativo')
 						samih.push(from)
