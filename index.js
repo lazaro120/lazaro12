@@ -748,16 +748,14 @@ if (text.includes("placa"))
 			if (isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mEXEC\x1b[1;37m]', time, color(command), 'do leke', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 			if (!isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mRECV\x1b[1;37m]', time, color('Message'), 'do leke', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 			switch(command) {
-				case 'help':
-				case 'menu':
-					client.sendMessage(from, help(prefix), text)
-					break
-				case 'help1':
 				case 'menu':
                     putagg = await getBuffer(`https://photos.app.goo.gl/ijVaJAP9fdHjJY5R9`)
                     client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix)})
                     break
-					client.sendMessage(from, help1(prefix), text)
+				case 'menu1':
+                    putagg = await getBuffer(`https://photos.app.goo.gl/ijVaJAP9fdHjJY5R9`)
+                    client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix)})
+                    break
 					case 'kiss':
 				    try {    
 					
@@ -774,7 +772,7 @@ if (text.includes("placa"))
 					case 'lista':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isOwner) return reply('Você quem é o proprietário?')
-					if (args.length < 1) return reply('Onde está o texto, irmão?')
+					if (args.length < 1) return reply('Onde está o texto, irmão seu filho da puta?')
 					reply(mess.wait)
 					client.sendMessage(from, 'Adicionando mensagem à lista com sucesso' , text, { quoted: mek })
 					client.sendMessage(from, addsay(prefix), text, { quoted: mek })
