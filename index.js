@@ -11,7 +11,7 @@ const {help1} = require('./src/help1')
 const { modapk } = require('./src/modapk')
 const { pack } = require('./src/pack')
 const { outros } = require('./src/outros')
-const { vipmenu } = require('./src/vipmenu')
+const { vipm.enu } = require('./src/vipmenu')
 const { destrava } = require('./src/destrava')
 const { menu2 } = require('./src/menu2')
 const { destrava2 } = require('./src/destrava')
@@ -749,13 +749,15 @@ if (text.includes("placa"))
 			if (!isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mRECV\x1b[1;37m]', time, color('Message'), 'do leke', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 			switch(command) {
 				case 'help':
-				case 'menu':
+				case 'm.enu':
 					client.sendMessage(from, help(prefix), text)
 					break
 				case 'help1':
-				case 'menu1':
+				case 'menu':
+                    putagg = await getBuffer(`https://photos.app.goo.gl/ijVaJAP9fdHjJY5R9`)
+                    client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix)})
+                    break
 					client.sendMessage(from, help1(prefix), text)
-					break
 					case 'kiss':
 				    try {    
 					
@@ -1410,7 +1412,7 @@ if (text.includes("placa"))
 					case 'outros':
 					client.sendMessage(from, outros(prefix) , text, { quoted: mek })
 					break
-					case 'menu2':
+					case 'me.nu2':
 					client.sendMessage(from, menu2(prefix) , text, { quoted: mek })
 					break
 				case 'textsky':
