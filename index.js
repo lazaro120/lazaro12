@@ -749,11 +749,11 @@ if (text.includes("placa"))
 			if (!isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mRECV\x1b[1;37m]', time, color('Message'), 'do leke', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 			switch(command) {
 				case 'menu':
-                    putagg = await getBuffer(`https://photos.app.goo.gl/ijVaJAP9fdHjJY5R9`)
+                    putagg = await getBuffer(`https://lh3.googleusercontent.com/pw/ACtC-3e-8RAOjnaEXvZrDnITNjjBp1ThohXCt-3nX3Uu5V2NWHu6eEEKz1rOuvK9VZ2uC3UU3L2rLCd33ptF7Wfu2GmElCwIyk4fh53n85TjBKMccfeeDexbznTOYmSB6hDpXSxk7U17OIKM4Y2epvDYaFl1=w720-h478-no?authuser=0`)
                     client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix)})
                     break
 				case 'menu1':
-                    putagg = await getBuffer(`https://photos.app.goo.gl/ijVaJAP9fdHjJY5R9`)
+                    putagg = await getBuffer(`https://lh3.googleusercontent.com/pw/ACtC-3e-8RAOjnaEXvZrDnITNjjBp1ThohXCt-3nX3Uu5V2NWHu6eEEKz1rOuvK9VZ2uC3UU3L2rLCd33ptF7Wfu2GmElCwIyk4fh53n85TjBKMccfeeDexbznTOYmSB6hDpXSxk7U17OIKM4Y2epvDYaFl1=w720-h478-no?authuser=0`)
                     client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix)})
                     break
 					case 'kiss':
